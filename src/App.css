@@ -481,6 +481,7 @@ color: #FFFFFF;
   padding: 0;
   margin: 0;
   box-sizing: border-box;
+  padding-bottom: 5rem;
 
 }
 
@@ -676,6 +677,207 @@ color: #FFFFFF;
 
 }
 
+@media screen and ( min-width: 900px ){
+
+  .section4-a{
+    flex-direction: row;
+    justify-content: space-evenly;
+    width: auto;
+    height: auto;
+    box-sizing: border-box;
+    align-items: center;
+    padding-top: 5rem;
+  
+  }
+
+  .svg3{
+    width: 453px;
+    height: 684px;
+    left: 27rem;
+    top: 146.5rem;
+  }
+
+
+  .section4-a-1{
+    text-align: left;
+    width: auto;
+    height: auto;
+    display: inline-block;
+    
+  }
+
+  .section4-a-1>h2{
+    font-size: 24px;
+    line-height: 31px;
+  }
+
+  .section4-a-1>h1{
+    font-size: 50px;
+    line-height: 64px;
+  }
+  .section4-a-1>p{
+    font-size: 20px;
+    line-height: 30px; 
+  }
+
+  .section4-a-1>button{
+    font-size: 15px;
+    line-height: 19px;
+    width: 233px;
+    height: 31px;
+  }
+
+  .section4-a-2{
+    display: flex;
+    width: auto;
+    height: auto;
+  
+  }
+
+  .section4-a-2>h1{
+    font-size: 90px;
+    line-height: 115px;
+    margin: 1rem;
+  
+  }
+  
+  .section4-a-2>p{
+    font-size: 30px;
+    line-height: 39px;
+    margin: 0;
+  }
 
 
 
+  .section4-b{
+    padding-top: 15rem;
+    display: inline-block;
+    width: 100%;
+    height: auto;
+    text-align: center;
+  }
+
+  .section4-b-1{
+    flex-direction: row;
+    justify-content: space-evenly;
+    height: auto;
+    padding-top: 5rem;
+  }
+
+  .section4-b>h2{
+    font-size: 24px;
+    line-height: 31px;
+  
+  }
+  
+  .section4-b>h1{
+    font-size: 50px;
+    line-height: 64px;
+  
+  }
+  
+  
+  #juve{
+    width: 206px;
+    height: 267px;
+  
+  }
+  
+  #gerry{
+    width: 206px;
+    height: 267px;
+  
+  }
+  
+  #javier{
+    width: 206px;
+    height: 267px;
+  
+  }
+  
+  #lin{
+    width: 30px;
+    height: 30px;
+  }
+  
+  .section4-b-1a>p{
+    font-size: 24px;
+    line-height: 31px;
+
+  }
+}
+
+/*SECTION 4*/
+
+.Section4{
+  display: flex;
+  flex-direction: column;
+  height: auto;
+  text-align: center;
+  margin-right: 10%;
+  margin-left: 10%;
+  background-color: #232537;
+  box-sizing: border-box;
+  align-items: center;
+  padding: 1rem;
+}
+
+.Section4>h1{
+  font-family: 'DM Sans';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 15.5px;
+  letter-spacing: 0.1em;
+  background: radial-gradient(164.22% 6353.96% at 134.83% 15.18%, #F9CFA9 0%, rgba(240, 141, 147, 0.543403) 56.46%, rgba(165, 151, 193, 0) 100%) /* warning: gradient uses a rotation that is not supported by CSS and may not behave as expected */;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  text-fill-color: transparent;
+
+}
+
+.Section4>p{
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 10px;
+  line-height: 15px;
+  text-align: center;
+  color: #FFFFFF;
+  
+}
+
+.Section4>button{
+  background: radial-gradient(164.22% 6353.96% at 134.83% 15.18%, #F9CFA9 0%, rgba(240, 141, 147, 0.543403) 56.46%, rgba(165, 151, 193, 0) 100%) /* warning: gradient uses a rotation that is not supported by CSS and may not behave as expected */;
+  border: 1px solid #151626;
+  filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+  border-radius: 5px;
+  width: 100px;
+  height: 22.5px;
+  color: #E5E5E5;
+  font-size: 8px;
+  line-height: 10px;
+}
+
+@media screen and ( min-width: 900px ){
+  .Section4>h1{
+    font-size: 24px;
+    line-height: 31px;
+
+  }
+  
+  .Section4>p{
+    font-size: 20px;
+    line-height: 30px;
+    
+  }
+  
+  .Section4>button{
+    width: 200px;
+    height: 45px;
+    font-size: 16px;
+    line-height: 20px;
+  }
+
+}
