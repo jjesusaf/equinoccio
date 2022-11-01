@@ -1,5 +1,8 @@
 import React from 'react';
-
+import Juve from '../assets/img/Juve.png'
+import Javier from '../assets/img/Javier.png'
+import Gerry from '../assets/img/Gerry.png'
+import Image from '../assets/img/image.png'
 const Section3 = () => {
     return (
         <div className='section4'>
@@ -57,26 +60,26 @@ const Section3 = () => {
                 </h1>
                 <div className="section4-b-1">
                     <div className="section4-b-1a">
-                        <img src="../../public/Juve 1.png" alt="" id='juve' />
+                        <img src={Juve} alt="" id='juve' />
                         <p>
                             Juvenal Campos
                         </p>
-                        <img src="../../public/image 3.png" alt="" id='lin' />
+                        <img src={Image} alt="" id='lin' />
                     </div>
                     <div className="section4-b-1a">
-                        <img src="../../public/Gerry 1.png" alt="" id='gerry' />
+                        <img src= {Gerry} alt="" id='gerry' />
                         <p>
                             Gerardo Godfrey
                         </p>
-                        <img src="../../public/image 3.png" alt="" id='lin' />
+                        <img src={Image} alt="" id='lin' />
 
                     </div>
                     <div className="section4-b-1a">
-                        <img src="../../public/Javier 1.png" alt="" id='javier' />
+                        <img src={Javier} alt="" id='javier' />
                         <p>
                             Javier Hernández
                         </p>
-                        <img src="../../public/image 3.png" alt="" id='lin' />
+                        <img src={Image} alt="" id='lin' />
                     </div>
                 </div>
             </div>

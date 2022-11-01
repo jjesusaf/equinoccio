@@ -1,6 +1,6 @@
 import React from 'react';
 import { useState } from 'react';
-
+import Equinoccio from '../assets/img/Equinoccio.png'
 const Navbar = () => {
 
     const [visible, setVisible] = useState("ulBar")
@@ -17,7 +17,7 @@ const Navbar = () => {
     return (
         <div className='compNav'>
             <nav className='Nav-bar'>
-                <img src="../../public/Equinoccio_logo.png" alt="logo-eq" id='logoEqui' onClick={navVisible} />
+                <img src={Equinoccio} alt="logo-eq" id='logoEqui' onClick={navVisible} />
                 <ul className={visible}>
                     <li>Acerca</li>
                     <li>Servicios</li>
