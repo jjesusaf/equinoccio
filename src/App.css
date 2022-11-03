@@ -893,6 +893,7 @@ color: #FFFFFF;
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  padding-bottom: 5rem;
 
 }
 
@@ -956,5 +957,108 @@ input{
     border-radius: 5px;
   }
 
+
+}
+
+
+
+/*FOOTER*/
+
+.Footer{
+  width: auto;
+  height: auto;
+  display: flex;
+  padding-top: 5rem;
+  box-sizing: border-box;
+  background: #232537;
+  flex-direction: column;
+}
+
+.Footer-a{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: auto;
+  text-align: center;
+  gap: 1rem;
+}
+
+#equinoccio2{
+  width: 214.01px;
+  height: 25px;
+}
+
+.Footer-a>p{
+  font-family: 'Space Grotesk';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 8px;
+  line-height: 10px;
+  color: #FFFFFF;
+}
+
+.Footer-svg{
+  display: flex;
+  gap: 1rem;
+  align-items: center;
+}
+
+.Footer-a>h2{
+  font-family: 'Space Grotesk';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 7px;
+  line-height: 9px;
+  color: #545C71;
+}
+
+
+.Footer-b{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  width: 100%;
+  height: auto;
+  justify-content: space-evenly;
+}
+
+.F-b-1{
+  display: inline-block;
+  text-align: center;
+}
+
+.F-b-1>h1{
+  font-family: 'Space Grotesk';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 10px;
+  line-height: 13px;
+  color: #FFFFFF;
+  margin: 0%;
+  padding: 0;
+}
+
+.F-b-1>h2{
+  font-family: 'Space Grotesk';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 8px;
+  line-height: 10px;
+  color: #FFFFFF;
+  margin: .5rem;
+  padding: 0;
+}
+
+.F-b-1>p{
+  font-family: 'Space Grotesk';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 7px;
+  line-height: 9px;
+  color: #545C71;
+  margin: 0;
+  padding: 0;
 
 }
