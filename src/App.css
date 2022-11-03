@@ -968,7 +968,7 @@ input{
   width: auto;
   height: auto;
   display: flex;
-  padding-top: 5rem;
+  padding-top: 3rem;
   box-sizing: border-box;
   background: #232537;
   flex-direction: column;
@@ -1068,23 +1068,16 @@ input{
   .Footer{
     flex-direction: row;
   }
-
-  .F-b-1>h1{
-    font-size: 20px;
-    line-height: 26px;
-  }
-  
-  .F-b-1>h2{
+  .Footer-a>p{
     font-size: 16px;
     line-height: 20px;
-
   }
   
-  .F-b-1>p{
+  .Footer-a>h2{
     font-size: 14px;
     line-height: 18px;
-
   }
+
   .F-b-1>h1{
     font-size: 20px;
     line-height: 26px;
@@ -1094,6 +1087,7 @@ input{
   .F-b-1>h2{
     font-size: 16px;
     line-height: 20px;
+    margin: 1rem;
  
   }
   
@@ -1108,6 +1102,7 @@ input{
     align-items: unset;
     text-align: left;
     margin-left: 12%;
+    margin-top: 2rem;
   }
 
   .Footer-b{
