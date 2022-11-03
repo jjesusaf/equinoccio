@@ -60,7 +60,6 @@ const Footer = () => {
                         </defs>
                     </svg>
                 </div>
-                <br />
                 <h2>
                     Copyright 2022 Equinoccio, Todos los derechos reservados.
                 </h2>
