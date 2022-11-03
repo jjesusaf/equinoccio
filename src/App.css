@@ -1062,3 +1062,57 @@ input{
   padding: 0;
 
 }
+
+@media screen and ( min-width: 900px ){
+
+  .Footer{
+    flex-direction: row;
+  }
+
+  .F-b-1>h1{
+    font-size: 20px;
+    line-height: 26px;
+  }
+  
+  .F-b-1>h2{
+    font-size: 16px;
+    line-height: 20px;
+
+  }
+  
+  .F-b-1>p{
+    font-size: 14px;
+    line-height: 18px;
+
+  }
+  .F-b-1>h1{
+    font-size: 20px;
+    line-height: 26px;
+  
+  }
+  
+  .F-b-1>h2{
+    font-size: 16px;
+    line-height: 20px;
+ 
+  }
+  
+  .F-b-1>p{
+    font-size: 14px;
+    line-height: 18px;
+
+  }
+
+  .Footer-a{
+    justify-content: left;
+    align-items: unset;
+    text-align: left;
+    margin-left: 12%;
+  }
+
+  .Footer-b{
+    margin-right: 4rem;
+  }
+
+
+}
